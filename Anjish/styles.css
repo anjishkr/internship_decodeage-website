@@ -1,0 +1,455 @@
+.body {
+  padding: 60px;
+  margin: 60px;
+}
+
+.cre-t02-uspBarDesktop {
+  background: #fff;
+  box-shadow: #232f3517 0 2px 8px;
+  z-index: 3 !important;
+  position: relative;
+  top: 0px;
+}
+
+.cre-t02-uspBar-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center
+}
+
+.uspBar-item {
+  width: fit-content;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+  position: relative;
+  cursor: pointer
+}
+
+.uspBar-item-image {
+  max-width: 40px;
+  max-height: 40px
+}
+
+.uspBar-item-image img {
+  max-width: 30px
+}
+
+.uspBar-item .item-content-heading {
+  font-weight: 600
+}
+
+.cre-t02-uspBarMobile {
+  display: none;
+  position: relative;
+  background: #fff;
+  box-shadow: #232f3517 0 2px 8px
+}
+
+.cre-t02-uspBarMobile .cre-t02-uspBarSlider .swiper-slide {
+  min-height: 62px;
+  padding-top: 3px;
+  padding-bottom: 5px
+}
+
+.uspBar-item-content p.item-content-heading {
+  font-size: 15px
+}
+
+.uspBar-item-content p:nth-child(2) {
+  font-size: 13px;
+  text-align: center
+}
+
+.uspBar-item-content p:nth-child(3) {
+  font-size: 12px
+}
+
+.cre-t02-uspBarMobile .swiper-button-prev:after,
+.cre-t02-uspBarMobile .swiper-button-next:after {
+  display: none
+}
+
+.cre-t02-uspBarMobile .swiper-button-prev img,
+.cre-t02-uspBarMobile .swiper-button-next img {
+  width: 20px;
+  height: 20px
+}
+
+.cre-t02-uspBarDesktop .uspBar-item:last-child .uspBar-item-content,
+.LiveCustomerSupport .uspBar-item-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column
+}
+
+.decodeage-tooltip-section {
+  max-width: 620px;
+  margin: auto;
+  padding: 10px 20px;
+  width: 100%;
+  position: relative;
+  background-color: #fff
+}
+
+.decodeage-tooltip-section .tooltip-box-logo {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px
+}
+
+.decodeage-tooltip-section .decodeage-tooltip-box {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  bottom: 12px
+}
+
+.decodeage-tooltip-section .decodeage-tooltip-box .tooltip-box-content {
+  font-size: 13px;
+  line-height: 19px;
+  color: #1a1a1a;
+  margin: 15px 0
+}
+
+.decodeage-tooltip-section .decodeage-tooltip-box .tooltip-box-heading {
+  font-size: 18px;
+  color: #1a1a1a;
+  font-weight: 600;
+  line-height: 26px;
+  margin-top: 25px
+}
+
+.decodeage-tooltip-section .tooltip-box-icon {
+  max-width: 50px
+}
+
+.decodeage-tooltip-section .tooltip-box-icon>img {
+  width: 100%
+}
+
+.Credropdown>div {
+  max-width: 457px;
+  margin: auto;
+  padding: 10px 5px 0 12px;
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  border: 1px solid #f3f3f7;
+  border-color: rgb(var(--text-color) / .12);
+  box-shadow: #232f3517 0 2px 8px;
+  border-radius: 5px
+}
+
+.decodeage-tooltip-numbers .decodeage-tooltip-numbersBox {
+  position: relative;
+  display: block;
+  bottom: 12px
+}
+
+.decodeage-tooltip-numbers .tooltip-numbers-list .tooltip-numbers-list-item {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 13px;
+  line-height: 19px;
+  color: #1a1a1a;
+  margin: -14px 0
+}
+
+.decodeage-tooltip-numbers .tooltip-numbers-list .tooltip-numbers-list-item .tooltip-numbers {
+  font-size: 13px;
+  display: block;
+  line-height: 47px;
+  font-weight: 500
+}
+
+.decodeage-tooltip-numbers .tooltip-numbers-heading {
+  font-size: 18px;
+  color: #1a1a1a;
+  font-weight: 600;
+  line-height: 0;
+  margin-top: 20px
+}
+
+.decodeage-tooltip-numbers .tooltip-numbers-subheading {
+  font-size: 13px;
+  line-height: 19px;
+  color: #1a1a1a;
+  margin: 15px 0
+}
+
+.Credropdown {
+  position: absolute;
+  top: 93px;
+  display: none;
+  left: 0;
+  right: 0;
+  border-radius: 5px
+}
+
+.uspBar-item:hover .Credropdown {
+  display: block;
+  width: 490px
+}
+
+.uspBar-item-content .tooltip-box-icon img {
+  max-width: 37px
+}
+
+.uspBar-item-content .tooltip-box-logo {
+  display: flex;
+  text-align: center;
+  justify-content: center
+}
+
+.swiper-slide.uspBar-item.showMobileToolTip .Credropdown {
+  display: block
+}
+
+.CredropdownMobile {
+  position: absolute;
+  display: none
+}
+
+.showMobileToolTip .cre-t02-uspBarSlider+.CredropdownMobile {
+  display: block;
+  top: 88px;
+  left: 0;
+  right: 0
+}
+
+.showMobileToolTip main>.shopify-section--slideshow:first-child {
+  z-index: 0 !important
+}
+
+.cre-t02-uspBarSlider.Show30DayMoneyBackGuarantee+.CredropdownMobile .Day30MoneyBackGuaranteeToolTip {
+  display: block !important
+}
+
+.cre-t02-uspBarSlider.ShowFreeFastShipping+.CredropdownMobile .SubscribeAndSaveToolTip {
+  display: block !important
+}
+
+.cre-t02-uspBarSlider.ShowSubscribeAndSave+.CredropdownMobile .FreeFastShippingToolTip {
+  display: block !important
+}
+
+.cre-t02-uspBar-container>.uspBar-item:nth-child(1) .Credropdown .decodeage-tooltip-numbers .decodeage-tooltip-numbersBox {
+  height: 95vh;
+  overflow: scroll;
+  z-index: 99 !important
+}
+
+.cre-t02-uspBar-container .showMobileToolTip {
+  overflow: hidden
+}
+
+.cre-t02-uspBar-container .uspBar-item:hover:before {
+  background: #fff;
+  width: 20px;
+  height: 20px;
+  content: "";
+  position: absolute;
+  left: 45%;
+  transform: rotate(45deg) translate(-50%);
+  top: 92px;
+  right: 0;
+  border: 1px solid #d8d8dd
+}
+
+.uspBar-item:nth-child(4):before {
+  display: none
+}
+
+.uspBar-item-content p:nth-child(2):after,
+.uspBar-item-content .tooltip-box-logo:after {
+  content: " ";
+  display: inline-block;
+  height: 40px;
+  width: 100%;
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  right: 0
+}
+
+.uspBar-item-content .tooltip-box-logo:after {
+  height: 47px
+}
+
+.Credropdown .decodeage-tooltip-section:before,
+.Credropdown .decodeage-tooltip-numbers:before {
+  content: " ";
+  display: inline-block;
+  height: 50px;
+  width: 100%;
+  top: -24px;
+  background-color: transparent;
+  position: absolute
+}
+
+.uspBar-item:last-child p.item-content-heading:after {
+  display: none
+}
+
+@media screen and (max-width: 1024px) {
+  .uspBar-item-content p.item-content-heading {
+    font-size: 13px !important
+  }
+
+  .uspBar-item-content p:nth-child(2) {
+    font-size: 12px !important
+  }
+
+  .uspBar-item-content p:nth-child(3) {
+    font-size: 11px !important
+  }
+
+  .cre-t02-uspBarMobile {
+    display: block !important
+  }
+
+  .cre-t02-uspBarDesktop {
+    display: none !important
+  }
+
+  .showMobileToolTip .cre-t02-uspBarSlider+.CredropdownMobile {
+    padding: 0;
+    background-color: #fff;
+    box-shadow: #232f356b 0 2px 8px;
+    max-width: 90%;
+    margin: 0 auto
+  }
+
+  .decodeage-tooltip-numbers:before,
+  .CredropdownMobile:before {
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: rotate(45deg) translate(-50%);
+    top: 0;
+    border: 1px solid #c3cfda
+  }
+
+  .cre-t02-uspBarSlider.ShowSubscribeAndSave+.CredropdownMobile .SubscribeAndSaveToolTip {
+    height: 90vh;
+    overflow: scroll
+  }
+
+  header.shopify-section--header {
+    position: sticky;
+    z-index: 9 !important
+  }
+
+  .decodeage-tooltip-numbers {
+    max-width: 620px;
+    margin: auto;
+    padding: 10px 20px;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 90vh;
+    overflow: scroll
+  }
+
+  .decodeage-tooltip-numbers:before {
+    display: none
+  }
+
+  .SubscribeAndSave .uspBar-item-content:after {
+    content: " ";
+    display: inline-block;
+    background-image: url(/cdn/shop/files/icons.png?v=1715931099);
+    height: 42px;
+    width: 223px;
+    background-size: contain;
+    background-repeat: no-repeat
+  }
+
+  .SubscribeAndSave .uspBar-item-image {
+    display: none
+  }
+
+  .LiveCustomerSupport .item-content-heading:after {
+    display: none
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1025px) {
+  .uspBar-item-content p.item-content-heading {
+    font-size: 12px
+  }
+
+  .uspBar-item-content p:nth-child(2) {
+    text-align: left;
+    font-size: 12px
+  }
+
+  .uspBar-item {
+    padding: 7px
+  }
+}
+
+[id^=shopify-section-sections].shopify-section.shopify-section-group-header-group.shopify-section--header {
+  z-index: 99 !important
+}
+
+header.shopify-section--header [variable=header] .header {
+  transform: inherit !important
+}
+
+.uspBar-item-content [role=presentation] {
+  margin-top: 10px !important;
+  display: none
+}
+
+.uspBar-item-content p.item-content-heading:after {
+  content: " ";
+  display: inline-block;
+  background-image: url(/cdn/shop/files/noun-info-6651551.svg?v=1715931099);
+  height: 11px;
+  width: 11px;
+  background-size: contain;
+  margin-left: 4px;
+  background-repeat: no-repeat
+}
+
+.Cre-highlighted .creoverlay {
+  background: #0006;
+  min-height: 100lvh;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2 !important
+}
+
+.uspBar-item:first-child .Credropdown {
+  width: 520px
+}
+
+.uspBar-item:first-child .Credropdown>div {
+  max-width: 520px
+}
+
+.cre-t02-uspBar-container>.uspBar-item:nth-child(1) .Credropdown .decodeage-tooltip-numbers .decodeage-tooltip-numbersBox {
+  height: 80vh
+}
+
+.LiveCustomerSupport p.item-content-heading:after {
+  display: none !important
+}
+
+.uspBar-item-cont {
+  line-height: 6px;
+}
+.row{display: flex;     gap: 20px;  background-color: rgb(249, 249, 249); border-radius: 20px;}
